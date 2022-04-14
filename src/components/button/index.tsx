@@ -1,7 +1,12 @@
 import React from "react";
+import { Button, Typography } from "@mui/material";
 
-const Button = () => {
-  return <div>Button</div>;
+const ButtonComponent = () => {
+  return (
+    <Button variant="contained">
+      <Typography>Press me</Typography>
+    </Button>
+  );
 };
 
-export default Button;
+export default ButtonComponent;
